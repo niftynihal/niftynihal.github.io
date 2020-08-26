@@ -7,6 +7,8 @@
     <title>Nihal's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+   <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
 </head>
 <body>
     <div class="container-fluid">
@@ -122,6 +124,17 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-4 mx-auto text-center">
+            <div class="col">
+                <div class="calendar">
+                    <!-- Loading stuff -->
+                    Loading the data just for you.
+                </div>
+            </div>
+        </div>
     </div>
+    <script>
+        new GitHubCalendar(".calendar", "niftynihal");
+    </script>
 </body>
 </html>
